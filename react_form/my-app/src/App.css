@@ -1,0 +1,39 @@
+.App {
+	text-align: center;
+}
+
+.person_name, .states{
+	width: 198px;
+    padding: 2px;
+    font-size: 14px;
+    font-weight: bold;
+	margin-left: 13px;
+	outline: none;
+}
+button{
+	width: 100px;
+	height: 25px;
+	outline: none;
+	cursor: pointer;
+	border-radius: 10px;
+	font-size: 14px;
+	background-color: cadetblue;
+	font-weight: bold;
+	border:none;
+}
+
+form{
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+form div{
+	margin:10px;
+}
+
+label{
+	font-size: 16px;
+    font-weight: bold;
+}

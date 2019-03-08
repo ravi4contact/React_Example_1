@@ -1,0 +1,54 @@
+.cityType{
+    font-weight: 400;
+}
+.cityContainer h2{
+    text-align: left;
+    margin: 53px 0 0 10px;
+}
+.citySubContainer{
+    display: grid;
+    grid-column-gap: 50px;
+    grid-row-gap: 50px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 10px;
+}
+.subContainer{
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 18px;
+    font-size: 19px;
+    text-align: center;
+    cursor:pointer;
+    background: #eff0f1;
+}
+
+@media (max-width: 850px) and (min-width:670px){
+    .citySubContainer{
+        display: grid;
+      grid-column-gap: 60px;
+      grid-row-gap: 60px;
+      grid-template-columns: 1fr 1fr 1fr;
+      padding: 10px;
+    }
+}
+@media (max-width: 670px){
+    .citySubContainer{
+        display: grid;
+      grid-column-gap: 40px;
+      grid-row-gap: 40px;
+      grid-template-columns: 1fr 1fr;
+      padding: 10px;
+    }
+}
+
+.subContainer:hover{
+    background: #dee9f5
+}
+.cityLogo{
+    border-radius: 67px;
+    width: 85px;
+    height: 85px;
+}
+.noCity{
+    font-size: 20px;
+    font-weight: bold;
+}

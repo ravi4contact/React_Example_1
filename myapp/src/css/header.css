@@ -1,0 +1,31 @@
+.checkEnabled label{
+    font-size: 13px;
+}
+.checkEnabled .hd{
+    margin-right: 1%;
+}
+
+.checkEnabled{
+    text-align: right;
+    position: relative;
+    right: 9px;
+}
+
+@media (max-width: 850px) and (min-width:670px){
+    .checkEnabled label{
+        position: relative;
+        top: -2px;
+    }
+    .checkEnabled{
+        text-align: center;
+    }
+}
+@media (max-width: 670px){
+    .checkEnabled label{
+        position: relative;
+        top: -2px;
+    }
+    .checkEnabled{
+        text-align: center;
+    }
+}
